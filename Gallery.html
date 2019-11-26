@@ -1,0 +1,611 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gallery</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	margin-left: 0%;
+	margin-top: 0px;
+	margin-right: 0%;
+	margin-bottom: 0%;
+}
+</style>
+<link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+</head>
+
+<body>
+<div class="mx-auto" style="width: 150%;"> <!--KEEPS IT CENTERED DO NOT CHANGE--> 
+ 
+<div class="Mw-100 p-3" alt="Max-width 100%">  <!--Keeps it at 100% I THINK-->
+<header class="mainTop">
+  <h1> <!--This h1 is for the title background, to change the text change it in illustrator then update the background image in CSS designer--> </h1> 
+  
+<nav><!--Nav bar start-->
+		<ul>
+			<li><a href="index.html" id="home">Home</a><img src="images/1x/4x/Green Pin@4x.png" alt=""/></li>
+			<li><a href="CurrentProjects.html" id="CurrentProjects">Best Works</a><img src="images/1x/4x/Purple Pin@4x.png" alt=""/></li>
+			<li><a href="Programs.html" id="Programs">Software</a><img src="images/1x/4x/Blue Pin@4x.png" alt=""/></li>
+			<li><a href="PastWorks.html" id="PastWorks">Past Works</a><img src="images/1x/4x/Green Pin@4x.png" alt=""/></li>
+			<li><a href="Gallery.html" id="selected">Gallery</a><img src="images/1x/4x/Purple Pin@4x.png" alt=""/></li>
+			<li><a href="About.html" id="About">About</a><img src="images/1x/4x/Blue Pin@4x.png" alt=""/></li>
+		
+		
+		
+		
+	</ul>
+	</nav><!--Nav bar End-->
+</header>
+<div class="outerWrapper">	
+
+
+	
+<aside class="Polaroid2"><img src="images/1x/4x/Green Pin@4x.png" alt=""/>
+  <section><img src="images/index/ButeauM_Project3a_FINAL-01-01.jpg" alt=""/></section>
+		<section><p>Stained Glass Style</p></section>
+	
+<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#StainedGlass">
+  View Full Slideshow
+</button>
+<!-- Modal --> <!--Change this id \/-->
+<div class="modal fade" id="StainedGlass" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">	<!--this too \/-->
+        <h5 class="modal-title" id="StainedGlass1">Hobbit Stained Glass</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		  <!--The actual Slideshow-->
+        <div id="carouselStainedGlass" class="carousel slide" data-ride="carousel">
+  				<ol class="carousel-indicators"> 
+    				<li data-target="#carouselStainedGlass" data-slide-to="0" class="active"></li>
+    				<li data-target="#carouselStainedGlass" data-slide-to="1"></li>
+  				</ol>
+  			<div class="carousel-inner">
+    			<div class="carousel-item active">
+      				<section><img  src="images/index/ButeauM_Project3a_FINAL-01-01.jpg" alt=""/> </section><!--First Slide-->
+    			</div>
+    			<div class="carousel-item">
+      				<section><img  src="images/index/ButeauM_Project3b_FINAL_CMYK-01.jpg"  alt=""/> </section><!--Second Slide-->
+    			</div>
+  			</div>
+  			<a class="carousel-control-prev" href="#carouselStainedGlass" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  			</a>
+  			<a class="carousel-control-next" href="#carouselStainedGlass" role="button" data-slide="next">
+    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+      </div>
+      <div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> <!--SLIDESHOW-->	
+</aside>
+	
+<aside class="Polaroid2"><img src="images/1x/4x/Purple Pin@4x.png" alt=""/>
+  <section><img src="images/Photoshops/First.jpg" alt=""/></section>
+		<section><p>Photos/Retouching</p></section>
+	<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#PhotoRetouching">
+  View Full Slideshow
+</button>
+
+	<div class="modal fade" id="PhotoRetouching" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="PhotoRetouchingTitle">Photos/Retouching</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		  <!--The actual Slideshow-->
+        <div id="carouselPhotoRetouching" class="carousel slide" data-ride="carousel">
+  				<ol class="carousel-indicators">
+    				<li data-target="#carouselPhotoRetouching" data-slide-to="0" class="active"></li>
+    				<li data-target="#carouselPhotoRetouching" data-slide-to="1"></li>
+    				<li data-target="#carouselPhotoRetouching" data-slide-to="2"></li>
+					<li data-target="#carouselPhotoRetouching" data-slide-to="3"></li>
+					<li data-target="#carouselPhotoRetouching" data-slide-to="4"></li>
+					<li data-target="#carouselPhotoRetouching" data-slide-to="5"></li>
+					<li data-target="#carouselPhotoRetouching" data-slide-to="6"></li>
+					<li data-target="#carouselPhotoRetouching" data-slide-to="7"></li>
+					<li data-target="#carouselPhotoRetouching" data-slide-to="8"></li>
+					<li data-target="#carouselPhotoRetouching" data-slide-to="9"></li>
+  				</ol>
+  			<div class="carousel-inner">
+    			<div class="carousel-item active">
+      				<section><img  src="images/Photoshops/First.jpg" alt=""/> </section><!--First Slide-->
+    			</div>
+    			<div class="carousel-item">
+      				<section><img  src="images/Photoshops/First Photo AFTER.jpg"  alt=""/> </section><!--Second Slide-->
+    			</div>
+    			<div class="carousel-item ">
+      				<section><img  src="images/Photoshops/Second.jpg" alt=""/> </section><!--Third Slide-->
+    			</div>
+				<div class="carousel-item ">
+      				<section><img  src="images/Photoshops/Second Photo (AFTER).jpg" alt=""/> </section><!--4th Slide-->
+    			</div>
+				<div class="carousel-item ">
+      				<section><img  src="images/Photoshops/Third.jpg" alt=""/> </section><!--Fourth Slide-->
+    			</div>
+				<div class="carousel-item ">
+      				<section><img  src="images/Photoshops/Third Photo(AFTER).jpg" alt=""/> </section><!--Fifth Slide-->
+    			</div>
+				<div class="carousel-item ">
+      				<section><img  src="images/Photoshops/Fourth.jpg" alt=""/> </section><!--Sixth Slide-->
+    			</div>
+				<div class="carousel-item ">
+      				<section><img  src="images/Photoshops/Fourth Photo (AFTER).jpg" alt=""/> </section><!--Seventh Slide-->
+    			</div>
+				<div class="carousel-item ">
+      				<section><img  src="images/Photoshops/Fifth.jpg" alt=""/> </section><!--8th Slide-->
+    			</div>
+				<div class="carousel-item ">
+      				<section><img  src="images/Photoshops/Fifth Photo (AFTER).jpg" alt=""/> </section><!--9th Slide-->
+    			</div>
+  			</div>
+  			<a class="carousel-control-prev" href="#carouselPhotoRetouching" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  			</a>
+  			<a class="carousel-control-next" href="#carouselPhotoRetouching" role="button" data-slide="next">
+    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+      </div>
+      <div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</aside>
+	
+<aside class="Polaroid2"><img src="images/1x/4x/Blue Pin@4x.png" alt=""/>
+  <section><img src="images/Package Design/MButeau Vitamin Bee Poster.png" alt=""/></section>
+		<section><p>Vitamin Bee Package</p></section>
+	
+	<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#VitaminBee">
+  	View Full Slideshow
+	</button>
+	
+	<div class="modal fade" id="VitaminBee" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="VitaminBeeTitle">Vitamin Bee Mockups</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		  <!--The actual Slideshow-->
+        <div id="carouselVitaminBee" class="carousel slide" data-ride="carousel">
+  				<ol class="carousel-indicators">
+    				<li data-target="#carouselVitaminBee" data-slide-to="0" class="active"></li>
+    				<li data-target="#carouselVitaminBee" data-slide-to="1"></li>
+    				<li data-target="#carouselVitaminBee" data-slide-to="2"></li>
+					<li data-target="#carouselVitaminBee" data-slide-to="3"></li>
+					<li data-target="#carouselVitaminBee" data-slide-to="4"></li>
+  				</ol>
+  			<div class="carousel-inner">
+    			<div class="carousel-item active">
+      				<section><img  src="images/Package Design/MButeau Vitamin Bee Poster.png" alt=""/> </section><!--First Slide-->
+    			</div>
+    			<div class="carousel-item">
+      				<section><img  src="images/Package Design/Honey_Jar.png"  alt=""/> </section><!--Second Slide-->
+    			</div>
+    			<div class="carousel-item">
+      				<section><img  src="images/Package Design/Honey_Jar back.png" alt=""/> </section><!--Third Slide-->
+    			</div>
+				<div class="carousel-item">
+      				<section><img  src="images/Package Design/Honey_Jar Green.png" alt=""/> </section><!--Fourth Slide-->
+    			</div>
+				<div class="carousel-item">
+      				<section><img  src="images/Package Design/Honey_Jar back Green.png" alt=""/> </section><!--Fifth Slide-->
+    			</div>
+  			</div>
+  			<a class="carousel-control-prev" href="#carouselVitaminBee" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  			</a>
+  			<a class="carousel-control-next" href="#carouselVitaminBee" role="button" data-slide="next">
+    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+      </div>
+      <div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</aside>
+
+<aside class="Polaroid"><img src="images/1x/4x/Blue Pin@4x.png" alt=""/> 
+	<section><img  src="images/Sous La Mer/Sous La Mer-01.png" alt=""/> </section>
+	<section><p>Sous La Mer</p></section>
+	<!-- Button trigger modal -->
+<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter">
+  View Full Slideshow
+</button>
+	
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Sous La Mer</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		  <!--The actual Slideshow-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  				<ol class="carousel-indicators">
+    				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  				</ol>
+  			<div class="carousel-inner">
+    			<div class="carousel-item active">
+      				<section><img  src="images/Sous La Mer/Sous La Mer Backdrop-01.jpg" alt=""/> </section><!--First Slide-->
+    			</div>
+    			<div class="carousel-item">
+      				<section><img  src="images/Sous La Mer/Sous La Mer Backdrop-02.jpg"  alt=""/> </section><!--Second Slide-->
+    			</div>
+    			<div class="carousel-item ">
+      				<section><img  src="images/Sous La Mer/Sous La Mer-01.png" alt=""/> </section><!--Third Slide-->
+    			</div>
+  			</div>
+  			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  			</a>
+  			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+      </div>
+      <div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> <!--SLIDESHOW-->
+	
+
+	
+</aside>
+</div>		
+<aside class="Polaroid"><img src="images/1x/4x/Green Pin@4x.png" alt=""/>
+  <section><img src="images/Photoshops/Really Phoned In Performance.jpg" alt=""/></section>
+		<section><p>Scanology</p></section>
+	<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Scanology">
+ 	 View Full Slideshow
+	</button>
+	
+	<div class="modal fade" id="Scanology" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ScanologyTitle">Playing with a Scanogram</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		  <!--The actual Slideshow-->
+        <div id="carouselScanology" class="carousel slide" data-ride="carousel">
+  				<ol class="carousel-indicators">
+    				<li data-target="#carouselScanology" data-slide-to="0" class="active"></li>
+    				<li data-target="#carouselScanology" data-slide-to="1"></li>
+    				<li data-target="#carouselScanology" data-slide-to="2"></li>
+  				</ol>
+  			<div class="carousel-inner">
+    			<div class="carousel-item active">
+      				<section><img  src="images/Photoshops/Really Phoned In Performance.jpg" alt=""/> </section><!--First Slide-->
+    			</div>
+    			<div class="carousel-item">
+      				<section><img  src="images/Photoshops/Timey Wimey, Rippley Wavey.jpg"  alt=""/> </section><!--Second Slide-->
+    			</div>
+    			<div class="carousel-item ">
+      				<section><img  src="images/Photoshops/I Cryogen All the Time.jpg" alt=""/> </section><!--Third Slide-->
+    			</div>
+  			</div>
+  			<a class="carousel-control-prev" href="#carouselScanology" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  			</a>
+  			<a class="carousel-control-next" href="#carouselScanology" role="button" data-slide="next">
+    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+      </div>
+      <div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</aside>
+	
+<aside class="Polaroid2"><img src="images/1x/4x/Purple Pin@4x.png" alt=""/>
+  <section><img src="images/Past Works/Chaplin Public Library/Bag MockUp 1.jpg" alt=""/></section>
+		<section><p>Chaplin Public Library Logo</p></section>
+	<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#CPLibrary">
+  View Slideshow/Background Info
+</button>
+	
+<div class="modal fade" id="CPLibrary" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="CPLibraryTitle">Chaplin Public Library Logo</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		  <!--The actual Slideshow-->
+        <div id="carouselCPLibrary" class="carousel slide" data-ride="carousel">
+  				<ol class="carousel-indicators">
+    				<li data-target="#carouselCPLibrary" data-slide-to="0" class="active"></li>
+    				<li data-target="#carouselCPLibrary" data-slide-to="1"></li>
+    				<li data-target="#carouselCPLibrary" data-slide-to="2"></li>
+					<li data-target="#carouselCPLibrary" data-slide-to="3"></li>
+					<li data-target="#carouselCPLibrary" data-slide-to="4"></li>
+  				</ol>
+  			<div class="carousel-inner">
+    			<div class="carousel-item active">
+      				<section><img  src="images/Past Works/Chaplin Public Library/Logo_Color.png" alt=""/> </section><!--First Slide-->
+    			</div>
+    			<div class="carousel-item">
+      				<section><img  src="images/Past Works/Chaplin Public Library/Logo_BW.png"  alt=""/> </section><!--Second Slide-->
+    			</div>
+    			<div class="carousel-item ">
+      				<section><img  src="images/Past Works/Chaplin Public Library/White Logo.png" alt=""/> </section><!--Third Slide-->
+    			</div>
+				<div class="carousel-item ">
+      				<section><img  src="images/Past Works/Chaplin Public Library/Bag MockUp 1.jpg" alt=""/> </section><!--Fourth Slide-->
+    			</div>
+				<div class="carousel-item ">
+      				<section><img  src="images/Past Works/Chaplin Public Library/apron Mockup.jpg" alt=""/> </section><!--Fifth Slide-->
+    			</div>
+				<div class="carousel-item ">
+      				<section><img  src="images/Past Works/Chaplin Public Library/Mug MockUp 2.jpg" alt=""/> </section><!--Fifth Slide-->
+    			</div>
+  			</div>
+  			<a class="carousel-control-prev" href="#carouselCPLibrary" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  			</a>
+  			<a class="carousel-control-next" href="#carouselCPLibrary" role="button" data-slide="next">
+    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+		  <p>This is the logo I made for a contest. The winning logo would be Chaplin Public Library's new logo. While I didn't win I attempted to mix the library's colors with a fun book with hollow letters.</p>
+      </div>
+      <div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>	
+</aside>
+	
+<aside class="Polaroid"><img src="images/1x/4x/Blue Pin@4x.png" alt=""/> <!--Polaroid 2 is the 3 Column Layout Design-->
+  <section><img src="images/Nerd Stuff/First Floor-01.jpg" alt=""/></section>
+	<section><p>Nerd Stuff</p></section>
+																	<!--Change id \/-->
+<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#NerdStuff">
+  View Full Slideshow
+</button>
+	
+<!-- Modal --> <!--Change this id \/-->
+<div class="modal fade" id="NerdStuff" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">	<!--this too \/-->
+        <h5 class="modal-title" id="ReallyNerdStuff">Dungeons and Dragons Map</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		  <!--The actual Slideshow-->
+        <div id="carouselNerdStuff" class="carousel slide" data-ride="carousel">
+  				<ol class="carousel-indicators"> 
+    				<li data-target="#carouselNerdStuff" data-slide-to="0" class="active"></li>
+    				<li data-target="#carouselNerdStuff" data-slide-to="1"></li>
+  				</ol>
+  			<div class="carousel-inner">
+    			<div class="carousel-item active">
+      				<section><img  src="images/Nerd Stuff/First Floor-01.jpg" alt=""/> </section><!--First Slide-->
+    			</div>
+    			<div class="carousel-item">
+      				<section><img  src="images/Nerd Stuff/Second Floor-02.jpg"  alt=""/> </section><!--Second Slide-->
+    			</div>
+  			</div>
+  			<a class="carousel-control-prev" href="#carouselNerdStuff" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  			</a>
+  			<a class="carousel-control-next" href="#carouselNerdStuff" role="button" data-slide="next">
+    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+      </div>
+      <div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> <!--SLIDESHOW-->
+		
+</aside>
+
+<aside class="Polaroid2"><img src="images/1x/4x/Green Pin@4x.png" alt=""/>
+  <section><a href="PastWorks.html"><img src="images/Past Works/Boards/ButeauBoards-01.png" alt=""/></a></section>
+		<section><p>Board Designs</p></section>
+																		<!--Change id \/-->
+<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#BoardDesigns">
+  View Full Slideshow
+</button>
+	
+<!-- Modal --> <!--Change this id \/-->
+<div class="modal fade" id="BoardDesigns" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">	<!--this too \/-->
+        <h5 class="modal-title" id="ReallyBoardDesigns">Board Designs</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		  <!--The actual Slideshow-->
+        <div id="carouselBoardDesigns" class="carousel slide" data-ride="carousel">
+  				<ol class="carousel-indicators"> 
+    				<li data-target="#carouselBoardDesigns" data-slide-to="0" class="active"></li>
+    				<li data-target="#carouselBoardDesigns" data-slide-to="1"></li>
+					<li data-target="#carouselBoardDesigns" data-slide-to="2"></li>
+					<li data-target="#carouselBoardDesigns" data-slide-to="3"></li>
+					<li data-target="#carouselBoardDesigns" data-slide-to="4"></li>
+  				</ol>
+  			<div class="carousel-inner">
+    			<div class="carousel-item active">
+      				<section><img  src="images/Past Works/Boards/ButeauBoards-01.png" alt=""/> </section><!--First Slide-->
+    			</div>
+    			<div class="carousel-item">
+      				<section><img  src="images/Past Works/Boards/ButeauBoards-02.png"  alt=""/> </section><!--Second Slide-->
+    			</div>
+				<div class="carousel-item">
+      				<section><img  src="images/Past Works/Boards/ButeauBoards-03.png"  alt=""/> </section><!--Third Slide-->
+    			</div>
+				<div class="carousel-item">
+      				<section><img  src="images/Past Works/Boards/ButeauBoards-04.png"  alt=""/> </section><!--Fourth Slide-->
+    			</div>
+				<div class="carousel-item">
+      				<section><img  src="images/Past Works/Boards/ButeauBoards-05.png"  alt=""/> </section><!--Fifth Slide-->
+    			</div>
+  			</div>
+  			<a class="carousel-control-prev" href="#carouselBoardDesigns" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  			</a>
+  			<a class="carousel-control-next" href="#carouselBoardDesigns" role="button" data-slide="next">
+    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+      </div>
+      <div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> <!--SLIDESHOW-->
+</aside>
+
+<aside class="Polaroid2"><img src="images/1x/4x/Green Pin@4x.png" alt=""/>
+  <section><a href="PastWorks.html"><img src="images/Past Works/Butteryfly-01.png" alt=""/></a></section>
+		<section><p>Kaleidoscope Kingdom</p></section>
+	<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#KalKingdom">
+  View Full Slideshow
+</button>
+	
+	<div class="modal fade" id="KalKingdom" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">	<!--this too \/-->
+        <h5 class="modal-title" id="KalKingdomTitle">Kaleidoscope Kingdom</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		  <!--The actual Slideshow-->
+        <div id="carouselKalKingdom" class="carousel slide" data-ride="carousel">
+  				<ol class="carousel-indicators"> 
+    				<li data-target="#carouselKalKingdom" data-slide-to="0" class="active"></li>
+    				<li data-target="#carouselKalKingdom" data-slide-to="1"></li>
+					<li data-target="#carouselKalKingdom" data-slide-to="2"></li>
+
+  				</ol>
+  			<div class="carousel-inner">
+    			<div class="carousel-item active">
+      				<section><img  src="images/Past Works/Butteryfly CMYK-01.png" alt=""/> </section><!--First Slide-->
+    			</div>
+    			<div class="carousel-item">
+      				<section><img  src="images/Past Works/Butteryfly-01.png"  alt=""/> </section><!--Second Slide-->
+    			</div>
+				<div class="carousel-item">
+      				<section><img  src="images/Past Works/Kaleidoscope Kingdom.png"  alt=""/> </section><!--Third Slide-->
+    			</div>
+  			</div>
+  			<a class="carousel-control-prev" href="#carouselKalKingdom" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  			</a>
+  			<a class="carousel-control-next" href="#carouselKalKingdom" role="button" data-slide="next">
+    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+      </div>
+      <div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</aside>
+
+</div>
+
+
+
+	
+	
+	<footer class="mainFooter"></footer>
+	</div>
+	</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.3.1.js"></script>
+<script	src="Modals.js"></script>
+</body>
+</html>
